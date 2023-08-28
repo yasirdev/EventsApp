@@ -36,10 +36,47 @@ const FeedItem = (props: FeedItemProps) => {
     let _favEvents = {...myFavEvents};
     if (_favEvents[props.item.id]) delete _favEvents[props.item.id];
     else {
-      await addEventToCalendar();
-      _favEvents[props.item.id] = 'valid';
+      const calendarPermission: string = await checkEventPermission();
+      if (calendarPermission === 'success') {
+        await addEventToCalendar();
+        _favEvents[props.item.id] = 'valid';
+      } else {
+        Alert.alert('Error', calendarPermission);
+      }
     }
     dispatch(updateFavourites(_favEvents));
+  };
+
+  const checkEventPermission = async () => {
+    return new Promise<string>((resolve, reject) => {
+      try {
+        RNCalendarEvents.checkPermissions()
+          .then(status => {
+            if (status !== 'authorized') {
+              RNCalendarEvents.requestPermissions()
+                .then(newStatus => {
+                  if (newStatus === 'authorized') {
+                    console.log('Calendar access granted.');
+                    resolve('success');
+                  } else {
+                    console.log('Calendar access denied.');
+                    reject('Calendar access denied');
+                  }
+                })
+                .catch(error => {
+                  console.error('Error requesting calendar access:', error);
+                  reject('Error requesting calendar access');
+                });
+            }
+          })
+          .catch(error => {
+            console.error('Error checking calendar authorization:', error);
+            reject('Error checking calendar authorization');
+          });
+      } catch (error) {
+        reject('error');
+      }
+    });
   };
 
   const addEventToCalendar = async () => {
@@ -57,28 +94,6 @@ const FeedItem = (props: FeedItemProps) => {
       Alert.alert('Error!', 'Unable to add event.');
     }
   };
-
-  useEffect(() => {
-    RNCalendarEvents.checkPermissions()
-      .then(status => {
-        if (status !== 'authorized') {
-          RNCalendarEvents.requestPermissions()
-            .then(newStatus => {
-              if (newStatus === 'authorized') {
-                console.log('Calendar access granted.');
-              } else {
-                console.log('Calendar access denied.');
-              }
-            })
-            .catch(error => {
-              console.error('Error requesting calendar access:', error);
-            });
-        }
-      })
-      .catch(error => {
-        console.error('Error checking calendar authorization:', error);
-      });
-  }, []);
 
   /* Use Effect to listen to Favourites update */
   useEffect(() => {
