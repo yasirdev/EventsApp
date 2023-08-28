@@ -1,0 +1,125 @@
+[
+    {
+      "id":"event_1",
+      "title": "Dinner with Fairgrove Partners",
+      "imageUrl":"https://shikararestaurant.com/wp-content/uploads/2018/01/events-banner.jpg",
+      "eventDate": "Wed, Mar 29",
+      "eventTime": "19:00 - 20:00",
+      "categories": [{"title": "Art & Music"}, {"title": "Movie"}, {"title": "Sports"}],
+      "isFav":false,
+      "followUsers":[
+        {
+          "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNR7FvvC_9X1l2xqi2rdkStAHaSRMmg89O_g&usqp=CAU",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNR7FvvC_9X1l2xqi2rdkStAHaSRMmg89O_g&usqp=CAU",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://s.yimg.com/ny/api/res/1.2/SfRES6vy5zuHX13ZMQDhzg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTY0MA--/https://media.zenfs.com/en/shefinds_255/81e1b9ffe5fd5f4c8a127bdc47775c54",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNR7FvvC_9X1l2xqi2rdkStAHaSRMmg89O_g&usqp=CAU",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://pbs.twimg.com/profile_images/685700874434314240/80T5j3HF_400x400.jpg",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://s.yimg.com/ny/api/res/1.2/SfRES6vy5zuHX13ZMQDhzg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTY0MA--/https://media.zenfs.com/en/shefinds_255/81e1b9ffe5fd5f4c8a127bdc47775c54",
+          "name":"JASON",
+          "isFollowing":true
+        }
+      ]
+    },
+    {
+      "id":"event_2",
+      "title": "Dinner with Fairgrove Partners",
+      "imageUrl":"https://shikararestaurant.com/wp-content/uploads/2018/01/events-banner.jpg",
+      "eventDate": "Wed, Mar 29",
+      "eventTime": "19:00 - 20:00",
+      "categories": [{"title": "Art & Music"}, {"title": "Movie"}, {"title": "Sports"}],
+      "isFav":false,
+      "followUsers":[
+        {
+          "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNR7FvvC_9X1l2xqi2rdkStAHaSRMmg89O_g&usqp=CAU",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNR7FvvC_9X1l2xqi2rdkStAHaSRMmg89O_g&usqp=CAU",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://s.yimg.com/ny/api/res/1.2/SfRES6vy5zuHX13ZMQDhzg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTY0MA--/https://media.zenfs.com/en/shefinds_255/81e1b9ffe5fd5f4c8a127bdc47775c54",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNR7FvvC_9X1l2xqi2rdkStAHaSRMmg89O_g&usqp=CAU",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://pbs.twimg.com/profile_images/685700874434314240/80T5j3HF_400x400.jpg",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://s.yimg.com/ny/api/res/1.2/SfRES6vy5zuHX13ZMQDhzg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTY0MA--/https://media.zenfs.com/en/shefinds_255/81e1b9ffe5fd5f4c8a127bdc47775c54",
+          "name":"JASON",
+          "isFollowing":true
+        }
+      ]
+    },
+    {
+      "id":"event_3",
+      "title": "Dinner with Fairgrove Partners",
+      "imageUrl":"https://shikararestaurant.com/wp-content/uploads/2018/01/events-banner.jpg",
+      "eventDate": "Wed, Mar 29",
+      "eventTime": "19:00 - 20:00",
+      "categories": [{"title": "Art & Music"}, {"title": "Movie"}, {"title": "Sports"}],
+      "isFav":false,
+      "followUsers":[
+        {
+          "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNR7FvvC_9X1l2xqi2rdkStAHaSRMmg89O_g&usqp=CAU",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNR7FvvC_9X1l2xqi2rdkStAHaSRMmg89O_g&usqp=CAU",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://s.yimg.com/ny/api/res/1.2/SfRES6vy5zuHX13ZMQDhzg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTY0MA--/https://media.zenfs.com/en/shefinds_255/81e1b9ffe5fd5f4c8a127bdc47775c54",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNR7FvvC_9X1l2xqi2rdkStAHaSRMmg89O_g&usqp=CAU",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://pbs.twimg.com/profile_images/685700874434314240/80T5j3HF_400x400.jpg",
+          "name":"JASON",
+          "isFollowing":true
+        },
+        {
+          "imageUrl":"https://s.yimg.com/ny/api/res/1.2/SfRES6vy5zuHX13ZMQDhzg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTY0MA--/https://media.zenfs.com/en/shefinds_255/81e1b9ffe5fd5f4c8a127bdc47775c54",
+          "name":"JASON",
+          "isFollowing":true
+        }
+      ]
+    }
+]
